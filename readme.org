@@ -12,7 +12,8 @@ A strictly typed irc library for strictly typed dorks
   - BSD (2-clause) Licensed! 
 ** Using
    #+BEGIN_SRC racket
-   (require tirc tirc/irc-message) ; for just the base irc library, and irc message objects
+   (require typed/irc 
+	    typed/irc/irc-message) ; for just the base irc library, and irc message objects
    #+END_SRC
 	
 ** Why

@@ -2,7 +2,7 @@
 
 (require typed/racket/class
          typed/racket/async-channel
-         "irc-message.rkt")
+         "irc/irc-message.rkt")
 (require/typed net/base64
                [base64-encode (Bytes -> Bytes)])
 (require/typed racket/string
