@@ -1,0 +1,26 @@
+#+TITLE: Typed Racket IRC
+
+A strictly typed irc library for strictly typed dorks
+
+** Features
+  - IRCv3 Capabilities
+  - IRCv3 Message tagging
+  - SASL (Only plain mechanism is supported right now)
+  - object based API
+  - SSL
+  - Strict Typing!
+  - BSD (2-clause) Licensed! 
+** Using
+   #+BEGIN_SRC racket
+   (require tirc tirc/irc-message) ; for just the base irc library, and irc message objects
+   #+END_SRC
+	
+** Why
+   I was writing an IRC in racket and i kept getting annoyed with
+   the APIs i was having to use and issues i kept running into 
+   with regards to having multiple servers, easy parsing of events, 
+   and whatnot. So I wrote the original implementation in rircc, along
+   with curses library stuff. 
+
+   I then Realised that I wanted some extra features and I got annoyed 
+   hacking on other irc libraries, so I ended up just writing my own. 
